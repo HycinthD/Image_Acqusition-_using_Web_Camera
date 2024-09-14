@@ -24,7 +24,7 @@ End the program and close the output video window by pressing 'q'.
 ### Developed By:HYCINTH D
 ### Register No:212223240055
 
-## i) Write the frame as JPG file
+i) Write the frame as JPG file
 ```
 import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
@@ -35,7 +35,7 @@ cv2.imwrite("webcam_img.jpg",frame)
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
-## ii) Display the video
+ii) Display the video
 ```
 import numpy as np
 import cv2
@@ -52,7 +52,7 @@ cap.release()
 cv2.destroyAllWindows()
 
 ```
-## iii) Display the video by resizing the window
+ iii) Display the video by resizing the window
 ```
 import numpy as np
 import cv2
@@ -78,7 +78,7 @@ cv2.imwrite('captured_image1.jpg', image)
 cap.release()
 cv2.destroyAllWindows()
 ```
-## iv) Rotate and display the video
+iv) Rotate and display the video
 ```
 import numpy as np
 import cv2
